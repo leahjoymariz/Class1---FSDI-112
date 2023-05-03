@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}About Me{% endblock title %}
+
+
+{% block content %}
+<h1>About Me</h1>
+<p>Hello, my name is Leah Joy Mariz Duco.</p>
+<p>Here is a cat that I found online: </p>
+<img src = "{% static 'img/cat.jpg' %}" style="width:30%;">
+{% endblock content %}
